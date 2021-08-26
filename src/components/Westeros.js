@@ -10,7 +10,7 @@ class Westeros extends React.Component {
         return (
             <>
                 <div className='d-flex'>
-                    <h1 className='m-4'>{this.props.countries}</h1>
+                    <h1 style={{borderRadius: '5px'}} className='m-4 text-light bg-dark p-2'>{this.props.countries}</h1>
                 </div>
 
             </>
