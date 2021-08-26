@@ -13,8 +13,9 @@ class Character extends React.Component {
                     <img className='card-img-top ' src={this.props.imageUrl} alt='cards' />
                     <div className='card-body '>
                         <div className='text-light'>
-                            <li className='card-text '>{this.props.fullName}</li>
-                            <li className='card-text '>{this.props.title}</li>
+                            <p className='card-text '>{this.props.fullName}</p>
+                            <p className='card-text fs-5'>{this.props.title}</p>
+                            {/* {this.props.favorite && <img src="public\star_favorite.png" alt="stars" />} */}
                         </div>
                         {/* <div>
                            <img src="public\favicon.ico" style={{transform: 'scale(0.9)'}} alt="starsFavorite" />

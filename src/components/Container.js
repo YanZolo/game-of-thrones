@@ -7,7 +7,7 @@ class Container extends React.Component {
         return (
             <div className='container-fluid d-flex justify-content-between .bg-secondary.bg-gradient' style={{fontFamily: 'MedievalSharp', background: ' url(https://i1.wp.com/fredericjoignot.blog.lemonde.fr/files/2019/04/Game-of-Thrones_Eiserner-Thron_Blog-Titel.jpg)', backgroundSize: 'contain'}}>
                 <div className='row col-6'>
-                    <h1 className='ms-2' style={{ fontWeight: '700', fontSize: '5rem'}}>{this.props.titleCharacters}</h1>
+                    <h1 className='ms-2' style={{ fontWeight: '700', fontSize: '6rem'}}>{this.props.titleCharacters}</h1>
                     {this.props.characterContent}
                 </div>
 
