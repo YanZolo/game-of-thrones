@@ -8,7 +8,7 @@ class Character extends React.Component {
         return (
             <>
 
-                <div className="card m-2 bg-dark " style={{ width: '12rem', border: '1px solid white' }}>
+                <div className="card m-2 bg-black " style={{ width: '12rem', border: '1px solid white',  }}>
 
                     <img className='card-img-top ' src={this.props.imageUrl} alt='cards' />
                     <div className='card-body '>
